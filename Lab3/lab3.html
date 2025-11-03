@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+   <!-- <button onclick = "console.log('Miram')">Console</button> -->
+    <h1 id = "cartheader" onclick="manipulateHeader()"> Cart</h1>
+    <button ocnlick = "addToCart()">Add to Cart</button>
+    <button onclick = "addTwo()">+2</button>
+    <button onclick = "addThree()">+3</button>
+    <button onclick = "resetCart()">Reset</button>
+    <button onclick = "changeBG()">Change bg color</button>
+</body>
+</html>
+
+<script src="lab3.js"></script>c
+
+<script>
+
+let cart_quantity = 0;
+function addToCart(){
+  cart_quantity+=1;
+  console.log(cart_quantity);
+}
+
+function addTwo(){
+  cart_quantity+=2;
+  console.log(cart_quantity);
+}
+
+function addThree(){
+  cart_quantity+=3;
+  console.log(cart_quantity);
+}
+
+function resetCart(){
+  cart_quantity = 0;
+  console.log(cart_quantity);
+}
+
+function manipulateHeader(){
+  document.getElementById("cartheader").textContent = "Activated Cart";
+}
+
+function changeBG(){
+  document.body.style.backgroundColor == "white" ? document.body.style.backgroundColor = "lightblue" : document.body.style.backgroundColor = "white";
+}
+
+
+</script>

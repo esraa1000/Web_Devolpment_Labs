@@ -1,0 +1,98 @@
+*{
+  margin: 0;
+}
+
+body{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.header{
+  background-color: rgb(64, 154, 218);
+  text-align: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.header h1{
+  color: white;
+  font-weight: 400;
+}
+
+.header p{
+  margin: 8px 0;
+}
+.header a{
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+}
+.header a:hover{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+#about{
+  margin: 20px 300px;
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 20px;
+}
+
+#about p{
+  color: rgb(40, 39, 39);
+}
+
+#projects{
+    margin: 50px 200px;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.project-container{
+  margin-right: 10px;
+  padding: 10px;
+  background-color: gainsboro;
+  border-radius: 20px;
+}
+
+#container h3{
+  border-bottom:2px;
+  margin-bottom: 5px;
+}
+
+#contact{
+    margin: 50px 300px;
+}
+
+
+input{
+  width: 100%;
+  padding: 8px;
+  margin: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+form .submit{
+  background-color: rgb(64, 154, 218);
+  color: white;
+  border: none;
+}
+
+
+
+footer{
+  background-color: rgb(64, 154, 218);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 100px;
+}
